@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peduli Lingkungan - Beranda</title>
+  <style>
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color:#A3B18A;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      color: white;
+      padding: 65px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      background-image: url(wallpaper2.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      color: #ffffff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    }
+
+    .marquee-wrapper {
+      width: 100%; 
+      overflow: hidden; 
+      white-space: nowrap;
+      box-sizing: border-box; 
+      background: rgba(0, 0, 0, 0.4); 
+      padding: 6px 0; 
+      margin-top: 8px;
+      border-radius: 6px;
+    } 
+       
+    .marquee-text { 
+      display: inline-block; 
+      color: #ffffff;
+      font-size: 1.1rem; 
+      font-weight: 500; 
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5); 
+      padding-left: 100%; 
+      animation: scroll-left 18s linear infinite;
+      } 
+         
+    @keyframes scroll-left { 
+      0% { transform: translateX(0); } 
+      100% { transform: translateX(-100%); }
+      }
+
+
+    .hero {
+      max-width: 1300px;
+      margin: 30px auto;
+      background-color: #A3B18A;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .hero img {
+      width: 60%; 
+      max-width: 400px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      border: 2px solid #000000; 
+
+    }
+
+    .hero h2 {
+      color: #000000;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1em;
+      margin-bottom: 15px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 25px;
+      background-color: #E8E1A9;
+      color: #000000;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: all 0.3s;
+    }
+
+    .button.button:hover {
+      background-color: #588157;
+      color: #000000;
+    }
+
+    @media (max-width: 768px) {
+      .hero img {
+        width: 80%; 
+        max-width: 300px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1> Peduli Lingkungan 🗻 </h1>
+    <div class="marquee-wrapper">
+      <p class="marquee-text">
+        Langit biru, udara segar, dan bumi hijau — semua dimulai dari kepedulian kecil kita setiap hari 💚
+      </p>
+    </div>
+  </header>
+
+  <section class="hero">
+    <img src="Kehidupan1.jpg" alt="Alam hijau">
+    <h2>Selamat Datang di Peduli Lingkungan</h2>
+    <p>Langkah kecil dari kita hari ini, Menjadi masa depan bumi yang lebih hijau.</p>
+    <a href="Tentang.html" class="button">Pelajari Lebih Lanjut 🙋🏻 </a>
+  </section>
+
+</body>
+</html>

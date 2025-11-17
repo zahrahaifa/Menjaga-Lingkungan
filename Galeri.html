@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri Adiwiyata - Peduli Lingkungan</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #A3B18A;
+      color: #333;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      color: white;
+      padding: 65px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      background-image: url(wallpaper2.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    header h1 {
+      font-size: 36px;
+      color: #ffffff;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    }
+
+    .marquee-wrapper {
+      width: 100%; 
+      overflow: hidden; 
+      white-space: nowrap;
+      box-sizing: border-box; 
+      background: rgba(0, 0, 0, 0.4); 
+      padding: 6px 0; 
+      margin-top: 8px;
+      border-radius: 6px;
+    } 
+       
+    .marquee-text { 
+      display: inline-block; 
+      color: #ffffff;
+      font-size: 1.1rem; 
+      font-weight: 500; 
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5); 
+      padding-left: 100%; 
+      animation: scroll-left 18s linear infinite;
+      } 
+         
+    @keyframes scroll-left { 
+      0% { transform: translateX(0); } 
+      100% { transform: translateX(-100%); }
+      }
+
+    .content {
+      max-width: 1000px;
+      margin: 10px auto;
+      background-color: #A3B18A;
+      padding: 25px;
+      border-radius: 12px;
+    }
+
+    .content {
+     max-width: 1200px;   
+     padding: 40px;
+    }
+
+    .content h2 {
+      color: #000000;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .content p {
+      text-align: justify;
+      margin-bottom: 20px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .gallery img {
+      width: 250px;
+      height: 190px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid #000000;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transfrom 0.2s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05); 
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      margin-top: 25px;
+      border-radius: 10px;
+    }
+
+    .btn {
+      font-size: 60px;
+      color: #000000;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #588157;
+      color: rgb(0, 0, 0);
+    }
+
+    @media (max-width: 768px) {
+      .gallery img {
+        width: 90%;
+      }
+
+      .button-container {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+      }
+    }
+ </style>
+</head>
+<body>
+  <header>
+    <h1>Galeri Adiwiyata 🏫</h1>
+    <div class="marquee-wrapper">
+      <p class="marquee-text">
+        Langit biru, udara segar, dan bumi hijau — semua dimulai dari kepedulian kecil kita setiap hari 💚
+      </p>
+    </div>
+  </header>
+
+  <section class="content">
+    <h2>Program Adiwiyata</h2>
+    <p>
+      Adiwiyata adalah program sekolah peduli dan berbudaya lingkungan yang digagas oleh Kementerian Lingkungan Hidup. 
+      Tujuannya adalah menciptakan warga sekolah yang bertanggung jawab dalam upaya perlindungan dan pengelolaan lingkungan hidup melalui kegiatan belajar dan kebiasaan sehari-hari.
+    </p>
+
+    <p>
+      Saya mengikuti program <b>Adiwiyata</b> ketika masih bersekolah di SMP. 
+      Dalam kegiatan tersebut, seluruh warga sekolah berpartisipasi menjaga kebersihan lingkungan, menanam tanaman hijau di halaman sekolah, 
+      membuat DIY dari barang bekas, serta mengelola sampah saya juga berkunjung ke tempat <b>Sistem Pengelolaan Sampah Terpadu</b>. 
+      Program ini tidak hanya membuat sekolah menjadi lebih indah, tetapi juga menumbuhkan kesadaran pentingnya menjaga lingkungan sejak dini.
+    </p>
+
+    <p>
+      Selain itu, sejak dulu saya memang giat dalam mengikuti kegiatan Adiwiyata, dan saya berpartisipasi menjadi bagian kegiatan peduli lingkungan, 
+      Contohnya pada Hari sampah, Hari Lingkungan Sedunia, dan World Cleanup Day,
+      kegiatan menanam pohon bersama, dan kampanye “kurangi plastik” di kantin sekolah. 
+      Semua kegiatan tersebut menjadikan sekolah lebih asri, sejuk, dan bebas sampah.
+    </p>
+
+    <div class="gallery">
+      <img src="adiwiyata1.jpg" alt="Penanaman Pohon di Sekolah">
+      <img src="adiwiyata2.jpg" alt="Taman Sekolah dari Barang Bekas">
+      <img src="adiwiyata3.jpg" alt="Bank Sampah Sekolah">
+      <img src="adiwiyata4.jpg" alt="Siswa Gotong Royong Membersihkan Lingkungan">
+    </div>
+
+    <div class="button-container">
+      <a href="Artikel.html" class="btn kembali">👈🏻</a>
+      <a href="Harapan.html" class="btn lanjut">👉🏻</a>
+    </div>
+  </section>
+</body>
+</html>

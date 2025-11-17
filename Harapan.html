@@ -1,0 +1,181 @@
+ <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harapan - Peduli Lingkungan</title>
+ <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #A3B18A;
+      color: #333;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      color: white;
+      padding: 65px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      background-image: url(wallpaper2.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    header h1 {
+      font-size: 2em;
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+
+    .marquee-wrapper {
+      width: 100%; 
+      overflow: hidden; 
+      white-space: nowrap;
+      box-sizing: border-box; 
+      background: rgba(0, 0, 0, 0.4); 
+      padding: 6px 0; 
+      margin-top: 8px;
+      border-radius: 6px;
+    } 
+       
+    .marquee-text { 
+      display: inline-block; 
+      color: #ffffff;
+      font-size: 1.1rem; 
+      font-weight: 500; 
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5); 
+      padding-left: 100%; 
+      animation: scroll-left 18s linear infinite;
+      } 
+         
+    @keyframes scroll-left { 
+      0% { transform: translateX(0); } 
+      100% { transform: translateX(-100%); }
+      }
+
+    .content {
+      max-width: 900px;
+      margin: 30px auto;
+      background-color: #A3B18A;
+      padding: 25px;
+      border-radius: 12px;
+    }
+
+    .content h2 {
+      color: #000000;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .content {
+     max-width: 1200px;   
+     padding: 40px;
+    }
+
+    .card {
+      background-color: #E8E1A9;
+      border-left: 5px solid #000000;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      padding: 15px 20px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    }
+
+    .card strong {
+      color: #000000;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+      margin-top: 30px;
+      border-radius: 10px;
+    }
+
+    .btn {
+      font-size: 60px;
+      color: #000000;
+      text-decoration: none;
+      padding: 10px 25px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #588157;
+      color: #fff;
+      transform: translateY(-2px);
+    }
+
+
+    @media (max-width: 768px) {
+      .content {
+        width: 90%;
+        padding: 20px;
+      }
+      .button-container {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+      }
+      .btn {
+        width: 80%;
+      }
+    } 
+    </style>
+</head>
+<body>
+  <header>
+    <h1>Harapan & Komitmen 🙌</h1>
+    <div class="marquee-wrapper">
+      <p class="marquee-text">
+        Langit biru, udara segar, dan bumi hijau — semua dimulai dari kepedulian kecil kita setiap hari 💚
+      </p>
+    </div>
+  </header>
+
+  <div class="content">
+
+    <div class="card">
+      <p><strong>1. Menjadi Generasi yang Bertanggung Jawab</strong><br>
+      Mari berkomitmen untuk menjaga alam dengan tidak merusak lingkungan, membuang sampah pada tempatnya, dan ikut serta dalam kegiatan hijau di sekolah maupun lingkungan rumah.</p>
+    </div>
+
+    <div class="card">
+      <p><strong>2. Mengurangi Penggunaan Plastik</strong><br>
+      Ayo lebih sadar akan pentingnya mengurangi plastik sekali pakai dengan membawa botol minum sendiri dan menggunakan tas kain.</p>
+    </div>
+
+    <div class="card">
+      <p><strong>3. Menanam dan Merawat Tanaman</strong><br>
+      Dengan menanam pohon dan menjaga tanaman di sekitar, kita membantu udara menjadi lebih bersih serta menjaga keseimbangan ekosistem.</p>
+    </div>
+
+    <div class="card">
+      <p><strong>4. Mengajak Orang Lain Peduli</strong><br>
+      Komitmen tersebut adalah mengajak teman dan keluarga agar ikut peduli lingkungan, karena perubahan besar dimulai dari langkah kecil bersama.</p>
+    </div>
+
+    <div class="card">
+      <p><strong>5. Harapan untuk Masa Depan</strong><br>
+      Kami berharap bumi menjadi tempat yang lebih hijau, peduli terhadap lingkungan, udara lebih bersih, dan generasi mendatang tetap bisa menikmati alam yang indah dan lestari.</p>
+    </div>
+
+    <div class="button-container">
+        <a href="Galeri.html" class="btn kembali">👈🏻</a>
+        <a href="Kehidupan.html" class="btn lanjut">👉🏻</a>
+    </div>
+
+  </div> 
+</body>
+</html>

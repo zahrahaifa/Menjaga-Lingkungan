@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Artikel — Peduli Lingkungan</title>
+  <style>
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    :root {
+      --green-dark: #000000;
+      --green-mid: #000000;
+      --green-soft: #000000;
+      --panel: #A3B18A;
+      --card-border: #000000;
+      --body-bg: #a3b18a;
+      --text: #000000;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--body-bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      color: white;
+      padding: 65px;
+      text-align: center;
+      background-image: url(wallpaper2.jpg);
+      background-size: cover;
+      background-position: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 36px;
+      color: #ffffff;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    }
+
+    .marquee-wrapper {
+      width: 100%; 
+      overflow: hidden; 
+      white-space: nowrap;
+      box-sizing: border-box; 
+      background: rgba(0, 0, 0, 0.4); 
+      padding: 6px 0; 
+      margin-top: 8px;
+      border-radius: 6px;
+    } 
+       
+    .marquee-text { 
+      display: inline-block; 
+      color: #ffffff;
+      font-size: 1.1rem; 
+      font-weight: 500; 
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5); 
+      padding-left: 100%; 
+      animation: scroll-left 18s linear infinite;
+      } 
+         
+    @keyframes scroll-left { 
+      0% { transform: translateX(0); } 
+      100% { transform: translateX(-100%); }
+      }
+
+    .content {
+      max-width: 1200px;
+      margin: 10px auto;
+      background-color: var(--panel);
+      padding: 40px;
+      border-radius: 12px;
+    }
+
+    .intro h2 {
+      color: var(--green-mid);
+      text-align: center;
+      margin-bottom: 14px;
+      font-size: 1.25rem;
+    }
+
+    .intro p {
+      margin-bottom: 12px;
+      text-align: justify;
+      font-size: 0.98rem;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 12px;
+      justify-items: center;
+      margin-top: -3%;
+    }
+
+    .card {
+      background: #E8E1A9;
+      border: 2px solid var(--card-border);
+      border-radius: 10px;
+      width: 250px;
+      height: 300px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      transition: transform .18s ease, box-shadow .18s ease;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      font-size: 1rem;
+      text-align: center;
+      margin: 6px 0;
+      color: var(--green-mid);
+    }
+
+    .card p {
+      font-size: 0.85rem;
+      text-align: left;
+      padding: 0 8px 5px;
+      margin: 0;
+      flex-grow: 1;
+    }
+
+    .footer-panel {
+      background-color: #A3B18A;
+      padding: 30px 40px;
+      border-radius: 15px;
+      margin-top: 30px;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+
+    .btn {
+      font-size: 60px;
+      color: #000000;
+      padding: 12px 28px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .btn:hover {
+      background-color: #588157;
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 768px) {
+      .cards {
+        grid-template-columns: 1fr;
+      }
+      .button-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Artikel Daerah Peduli Lingkungan 📚 </h1>
+    <div class="marquee-wrapper">
+      <p class="marquee-text">
+        Langit biru, udara segar, dan bumi hijau — semua dimulai dari kepedulian kecil kita setiap hari 💚
+      </p>
+    </div>
+  </header>
+
+  <main class="content">
+    <section class="intro">
+      <h2>Peran Masyarakat dalam Menjaga Lingkungan</h2>
+      <p>
+        Peran masyarakat dalam menjaga kelestarian lingkungan sangat penting dan mencakup berbagai aspek, 
+        mulai dari tindakan individu sehari-hari, partisipasi aktif dalam kegiatan komunitas, hingga advokasi 
+        kebijakan. Tindakan-tindakan ini meliputi pengurangan penggunaan plastik sekali pakai dan bahan berbahaya,
+        pengelolaan sampah yang benar, penghematan energi dan air, serta partisipasi dalam kerja bakti, penanaman pohon, 
+        dan mendukung kebijakan lingkungan yang berkelanjutan. Menjaga lingkungan bukan hanya tugas pemerintah, tetapi tanggung jawab bersama.
+        Setiap individu dapat berkontribusi melalui kegiatan kecil seperti memilah sampah,
+        menanam pohon, dan mengurangi plastik sekali pakai.
+      </p>
+      <p>
+        Selain itu, masyarakat juga berperan aktif lewat kegiatan sosial dan edukasi digital
+        untuk menyebarkan kesadaran akan pentingnya bumi yang bersih dan hijau. berikut adalah daerah-daerah yang 
+        sudah mulai menerapkan kegiatan peduli lingkungan.
+      </p>
+    </section>
+
+    <section class="footer-panel">
+      <div class="cards">
+        <div class="card">
+          <img src="Bank Sampah.jpg" alt="Bandung">
+         <h3>Bandung — Bank Sampah</h3>
+          <p>Warga menukar sampah anorganik (plastik, logam dan kertas) menjadi nilai ekonomi melalui prinsip daur ulang 3R.
+             Nasabah dapat mencairkan tabungan mereka sesuai kebutuhan atau menggunakan dana tersebut. 
+          </p>
+       
+        </div>
+
+        <div class="card">
+          <img src="Taman Kota.jpg" alt="Surabaya">
+          <h3>Surabaya — Taman Kota</h3>
+          <p>Revitalisasi taman kota
+             berfokus pada peningkatan kualitas ruang terbuka hijau (RTH) serta 
+             Tempat penyimpanan air tanah, sehingga mencegah datangnya banjir dan erosi
+             serta menjamin pasokan air tanah.</p>
+          </div>
+
+        <div class="card">
+          <img src="Komunitas.jpg" alt="Yogyakarta">
+          <h3>Yogyakarta — Komunitas Hijau</h3>
+          <p>Ada banyak komunitas penghijauan 
+             di Yogyakarta, mulai dari kelompok mahasiswa, masyarakat umum, hingga organisasi 
+             lingkungan seperti Climate Rangers Jogja, Lemah Teles Menoreh</p>
+        </div>
+
+        <div class="card">
+          <img src="Plastik.jpg" alt="Denpasar">
+          <h3>Denpasar — Kurangi Plastik</h3>
+          <p>
+            Penanganan sampah di Bali berfokus pada pengelolaan sampah berbasis sumber, dengan memilah sampah menjadi organik, 
+            anorganik daur ulang, dan residu di tingkat rumah tangga dan fasilitas
+          </p>
+        </div>
+      </div>
+
+      <div class="button-container">
+        <a href="Tips.html" class="btn kembali">👈🏻</a>
+        <a href="Galeri.html" class="btn lanjut">👉🏻</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

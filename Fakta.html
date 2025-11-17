@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fakta Lingkungan</title>
+  <style>
+     * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #A3B18A;
+      color: #333;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.5;
+    }
+
+    header {
+      color: white;
+      padding: 68px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      background-image: url(wallpaper2.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    header h1 {
+      font-size: 36px;
+      color: #ffffff;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    }
+
+    .marquee-wrapper {
+      width: 100%; 
+      overflow: hidden; 
+      white-space: nowrap;
+      box-sizing: border-box; 
+      background: rgba(0, 0, 0, 0.4); 
+      padding: 6px 0; 
+      margin-top: 8px;
+      border-radius: 6px;
+    } 
+       
+    .marquee-text { 
+      display: inline-block; 
+      color: #ffffff;
+      font-size: 1.1rem; 
+      font-weight: 500; 
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5); 
+      padding-left: 100%; 
+      animation: scroll-left 18s linear infinite;
+      } 
+         
+    @keyframes scroll-left { 
+      0% { transform: translateX(0); } 
+      100% { transform: translateX(-100%); }
+      }
+
+    .content {
+      max-width: 1000px;
+      margin: 30px auto;
+      background-color: #A3B18A;
+      padding: 35px;
+      border-radius: 12px;
+    }
+
+     .content {
+     max-width: 1200px;   
+     padding: 40px;
+    }
+
+    .content h2 {
+      color: #000000;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #E8E1A9;
+      border: 2px solid #000000;
+      border-radius: 10px;
+      width: 264px;
+      height: 190px; 
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      padding: 10px 12px;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card h3 {
+      color: #000000;
+      text-align: center;
+      font-size: 16px;
+      margin: 5px 0;
+      padding: 0;
+    }
+
+    .card p {
+      font-size: 13px;
+      text-align: justify;
+      margin: 0;
+      padding: 0;
+      line-height: 1.7em;
+      flex-grow: 1;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 25px;
+    }
+
+    .btn {
+      font-size: 60px;
+      color: #000000;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #588157;
+      color: #000000;
+    }
+
+    @media (max-width: 768px) {
+      .cards {
+        flex-direction: column;
+        align-items: center;
+      }
+      .card {
+        width: 85%;
+        height: auto;
+      }
+      .button-container {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Fakta & Statistik Lingkungan ✨</h1>
+    <div class="marquee-wrapper">
+      <p class="marquee-text">
+        Langit biru, udara segar, dan bumi hijau — semua dimulai dari kepedulian kecil kita setiap hari 💚
+      </p>
+    </div>
+  </header>
+
+  <section class="content">
+    <div class="cards">
+
+      <div class="card">
+        <h3>Sampah Plastik</h3>
+        <p>Lebih dari 8 juta ton sampah plastik dibuang ke laut setiap tahun. Indonesia menjadi salah satu negara penyumbang terbesar sampah plastik ke lautan.</p>
+      </div>
+
+      <div class="card">
+        <h3>Polusi Udara</h3>
+        <p>Sekitar 7 juta orang meninggal setiap tahun akibat paparan polusi udara. Kota besar seperti Jakarta memiliki indeks kualitas udara yang sering kali tidak sehat.</p>
+      </div>
+
+      <div class="card">
+        <h3>Deforestasi</h3>
+        <p>Setiap menit, area hutan seluas 27 lapangan sepak bola hilang di dunia. Hal ini memperparah perubahan iklim dan mengurangi keanekaragaman hayati.</p>
+      </div>
+
+      <div class="card">
+        <h3>Perubahan Iklim</h3>
+        <p>Suhu bumi meningkat sekitar 1,2°C sejak era pra-industri. Dampaknya mencakup cuaca ekstrem, kekeringan, dan naiknya permukaan laut.</p>
+      </div>
+
+    </div>
+
+    <div class="button-container">
+      <a href="Negatif.html" class="btn kembali">👈🏻</a>
+      <a href="Kegiatan.html" class="btn lanjut">👉🏻</a>
+    </div>
+  </section>
+</body>
+</html>

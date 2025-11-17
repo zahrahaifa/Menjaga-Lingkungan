@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tips Peduli Lingkungan</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #A3B18A;
+      color: #000000;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      color: white;
+      padding: 65px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      background-image: url(wallpaper2.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    header h1 {
+      font-size: 36px;
+      color: #ffffff;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    }
+    .marquee-wrapper {
+      width: 100%; 
+      overflow: hidden; 
+      white-space: nowrap;
+      box-sizing: border-box; 
+      background: rgba(0, 0, 0, 0.4); 
+      padding: 6px 0; 
+      margin-top: 8px;
+      border-radius: 6px;
+    } 
+       
+    .marquee-text { 
+      display: inline-block; 
+      color: #ffffff;
+      font-size: 1.1rem; 
+      font-weight: 500; 
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5); 
+      padding-left: 100%; 
+      animation: scroll-left 18s linear infinite;
+      } 
+         
+    @keyframes scroll-left { 
+      0% { transform: translateX(0); } 
+      100% { transform: translateX(-100%); }
+      }
+
+    .content {
+      max-width: 1100px;
+      margin: 10px auto;
+      background-color: #A3B18A;
+      padding: 40px;
+      border-radius: 12px;
+      position: relative;
+    }
+
+    .content {
+     max-width: 1200px;   
+     padding: 40px;
+    }
+
+    .content h2 {
+      color: #000000;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .tips-list {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 60px;
+    }
+
+    .tips-list li {
+      background-color: #E8E1A9;
+      border-left: 5px solid #000000;
+      padding: 15px 20px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+      transition: transform 0.2s;
+    }
+
+    .tips-list li:hover {
+      transform: translateY(-3px);
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+      margin-top: 30px;
+      border-radius: 10px;
+    }
+
+    .btn {
+      font-size: 60px;
+      color: #000000;
+      text-decoration: none;
+      padding: 10px 25px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #588157;
+      color: #000000;
+      transform: translateY(-2px);
+    }
+
+    @media (max-width: 768px) {
+      .button-container {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+      }
+
+      .btn {
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tips Peduli Lingkungan 💡</h1>
+    <div class="marquee-wrapper">
+      <p class="marquee-text">
+        Langit biru, udara segar, dan bumi hijau — semua dimulai dari kepedulian kecil kita setiap hari 💚
+      </p>
+    </div>
+  </header>
+
+  <section class="content">
+    <h2>Kebiasaan Kecil, Dampak Besar untuk Bumi</h2>
+    <ul class="tips-list">
+      <li><strong>1. Jadikan gaya hidup hijau bagian dari rutinitas</strong><br>
+      Coba mulai dari hal kecil yang bisa dilakukan setiap hari, seperti membawa botol minum sendiri, hemat air, atau mematikan lampu sebelum tidur.</li>
+
+      <li><strong>2. Beli seperlunya, bukan sesukanya</strong><br>
+      Kurangi kebiasaan konsumtif agar limbah berkurang dan sumber daya alam tidak cepat habis.</li>
+
+      <li><strong>3. Pilih produk ramah lingkungan</strong><br>
+      Gunakan barang lokal, alami, dan bisa didaur ulang untuk mendukung ekonomi hijau.</li>
+
+      <li><strong>4. Berbagi ilmu dan kesadaran</strong><br>
+      Ajak teman, keluarga, atau tetangga untuk bersama menerapkan gaya hidup ramah lingkungan.</li>
+
+      <li><strong>5. Hargai alam di sekitar</strong><br>
+      Nikmati keindahan alam tanpa merusaknya — saat ke pantai, gunung, atau taman, pastikan tidak meninggalkan sampah.</li>
+
+    <div class="button-container">
+      <a href="Kegiatan.html" class="btn kembali">👈🏻</a>
+      <a href="Artikel.html" class="btn lanjut">👉🏻</a>
+    </div>
+  </section>
+</body>
+</html>
